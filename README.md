@@ -43,3 +43,27 @@ Views interact with the Models and bring the data, and puts them into the Templa
 Templates help us create dynamic html tags with data. Django Templating Engine supports python like code in Templates which helps us add logic to how the templte should render with our data.
 Example:- https://tutorial.djangogirls.org/en/django_templates/
 
+# Setting Up Django Project and make a web application Step by Step:-
+
+1. Setup a project `myproj` 
+
+`django-admin.py startproject myproj .`
+
+2. Configure db in `settings.py`
+
+3. Apply above configurations and create DB in Database as per step 2. 
+
+`python manage.py migrate`
+
+4. Running the Server
+
+`python manage.py runserver`
+
+5. Create your application `myapp1`
+
+`python manage.py startapp myapp1`
+
+This is like one of the many web applications we want to create in the current project.
+
+Add `myapp1` entry to the `INSTALLED_APPS` of settings.py
+
