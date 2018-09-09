@@ -6,7 +6,8 @@ Django follows MVT (Model View Template) pattern, which is similar to MVC (Model
 
 A Django Project Consists of the following:-
 
-# 1. Models: The Models are Class representation of Database Tables. 
+## 1. Models: 
+#### The Models are Class representation of Database Tables. 
 Say, a table `Student` in DB with columns:
   
   i. `id` 
@@ -33,12 +34,12 @@ Examples:-
 2. To Filter a table entries based on a field:- 
     `Student.objects.get(name='Prince Manohar')` : Gives all the Student entries which have `name` value as `'Prince Manohar'`
 
-# 2. Views: Views contains our business logic where we write, what data we want to send in the response of an API and in what format
+## 2. Views: 
+#### Views contains our business logic where we write, what data we want to send in the response of an API and in what format
 Views interact with the Models and bring the data, and puts them into the Templates to render them as the right formats.  
 
-# 3. Templates : Templates are like files with html and/or some python code in it. 
+## 3. Templates: 
+#### Templates are like files with html and/or some python code in it. 
 Templates help us create dynamic html tags with data. Django Templating Engine supports python like code in Templates which helps us add logic to how the templte should render with our data.
 Example:- https://tutorial.djangogirls.org/en/django_templates/
-
-
 
